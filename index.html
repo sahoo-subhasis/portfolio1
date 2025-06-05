@@ -1,89 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>my portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Subhasis Sahoo | Portfolio</title>
+  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
   <header class="header">
     <div class="container">
-
-    
-    <nav class=" flex items-centre justify-between">
-        <div class="left flex items-centre">
-            <div class="branding">
-                <img src="./image/logo31.jpg" alt="">
-            </div>
-            <div>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Pages</a>
-                <a href="#">Blog</a>
-            </div>
+      <nav class="flex items-center justify-between">
+        <div class="left flex items-center">
+          <div class="branding">
+            <img src="./image/logo31.jpg" alt="Logo">
+          </div>
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+          </div>
         </div>
         <div class="right">
-           <button class="btn btn-primary">Contact</button>
+          <a href="#contact" class="btn btn-primary">Contact</a>
         </div>
-     </nav>
-     <div class="hero flex items-centre justify-between">
-        <div class="left flex-1 flex justify-centre">
-            <img src="./image/hapip.jpg" alt="">
+      </nav>
+      <div class="hero flex items-center justify-between">
+        <div class="left flex-1 flex justify-center">
+          <img src="./image/hapip.jpg" alt="Subhasis">
         </div>
-        <div class="right flex-1 ">
-            
-            <h1>Myself  Subhasis</h1>
-            <p>
-                <h4>Welcome to My Portfolio !</h4> 
-                This digital space serves as a window into my journey as a student of Information Technology. This portfolio serves as a testament to my skills, experiences, and the diverse range of projects I've undertaken. Here, you'll find a collection of projects and achievements that highlight my passion for all things tech. I invite you to explore the diverse range of experiences that have shaped my skills and knowledge in this dynamic field.</p>
-            
+        <div class="right flex-1">
+          <h1>Hello, I’m <span>Subhasis Sahoo</span></h1>
+          <h4>Welcome to My Portfolio!</h4>
+          <p>I’m a B.Tech student in Information Technology at VSSUT, Burla. This site showcases my interests in web development, problem-solving, group work, and continuous learning. You’ll find my projects, achievements, and progress throughout my journey in tech. Let’s connect!</p>
+          <div>
+            <a class="btn btn-secondary" href="https://drive.google.com/file/d/1RIER34by5fGBzWWzCkiGUUmp5W5VPlPh/view?usp=sharing" target="_blank">Download CV</a>
+          </div>
         </div>
-     </div>
+      </div>
     </div>
   </header>
+
+  <!-- About Section -->
   <section id="about" class="about">
     <div class="container flex items-center about-inner-wrap">
-        <div class="flex-1">
-            <img class="about-me-img" src="./image/hapi5.jpg" alt="">
-        </div>
-        <div class="flex-1 right">
-            <h1>About <span>Me</span></h1>
-            <h3>Hello! i’m Subhasis Sahoo.</h3>
-            <p>I'm a Information Technology Student studying in VSSUT. I am from Jajpur. I have completed my matriculation from P.C.Academy,Mohanpur,Jajpur and intermediate from Tetrahedron H.S.school,Tangi. I like to spend my time by watching anime,movies,Turkish dramas and playing video games and spending time with my family and friends. I have some basic knowledge about coding and I am being always eager to learn more and expand my horizons . When it comes to my future goals, I'm still exploring my options and figuring out what path I want to take. I know that I want to pursue a career that allows me to use my skills and strengths to make a positive impact on the world around me. Whether that's through science, technology, art, or something else entirely, I'm excited to explore my options and see where my journey takes me.</p>
-           
-        </div>
-
-        
+      <div class="flex-1">
+        <img class="about-me-img" src="./image/hapi5.jpg" alt="About Me">
+      </div>
+      <div class="flex-1 right">
+        <h1>About <span>Me</span></h1>
+        <h3>Introvert | Learner | Developer</h3>
+        <p>I am Subhasis Sahoo, currently pursuing B.Tech in Information Technology at VSSUT, Burla. Hailing from Jajpur, Odisha, I am an introvert by nature but love to work in teams. My interests lie in web development, AI, and solving coding problems. I enjoy anime, chess, and listening to music. I strive to complete work with sincerity and focus, and I’m still exploring my future path in the software field.</p>
+      </div>
     </div>
-    <div class="">
-        <center>
-        <i><h2>Contact Me!:</h2></i>
-        <a href="https://www.instagram.com/subhasis6363/" target="_blank"> <h1> Click to Follow me on Instagram </h1></a>
-                
-        <p>
-        <a href="https://www.facebook.com/subhasis.sahoo.5661" target="_blank"> <h1>Click to follow me on facebook </h1></a>                </p>
-        <p>
-        <a href="https://www.linkedin.com/in/subhasis-sahoo-26260b268/" target="_blank"> <h1>click here for my linkedin </h1></a>
-        </p>
-        <p>Email:sahoosubhasis703@gmail.com</p>
-        </p>
-        </center>
-        <p></p>
-        <br>
-        <center>
-            <a href="#"<BLINK><i>THANK YOU FOR VISITING THIS PAGE </i>
-            </BLINK></a>
-           
-        </center>
-    </div>
+  </section>
 
-</section>
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h1 class="section-title">What I <span>Do</span></h1>
+      <div class="flex service-cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Building responsive and engaging web pages using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <h3>Group Projects</h3>
+          <p>Collaborated with peers to develop charity and mental wellness platforms using modern web tech.</p>
+        </div>
+        <div class="card">
+          <h3>Google Cloud Arcade</h3>
+          <p>Completed multiple milestones on Google Cloud Skills Boost. Learning cloud concepts practically.</p>
+        </div>
+        <div class="card">
+          <h3>Problem Solving</h3>
+          <p>Basic understanding of data structures & algorithms. Still growing in coding practice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h1 class="section-title">Project <span>Gallery</span></h1>
+      <ul class="project-list">
+        <li><a href="https://sahoo-subhasis.github.io/portfolio1/" target="_blank">Portfolio Website</a></li>
+        <li><a href="https://sahoo-subhasis.github.io/shopping-page-food/" target="_blank">Fresh Fruit E-commerce Site</a></li>
+        <li><a href="https://github.com/sahoo-subhasis/poke-card-generator" target="_blank">Pokecard Generator (API based)</a></li>
+        <li><a href="https://sidhantamohanty.github.io/Helpz_Web_/HELPZ%20Website/" target="_blank">Charity Donation Website (Group)</a></li>
+        <li><a href="https://sidhantamohanty.github.io/web/adex-master/" target="_blank">CALM - Stress Relief WebApp (Group)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="certificates">
+    <div class="container">
+      <h1 class="section-title">My <span>Certificates</span></h1>
+      <ul class="cert-list">
+        <li>Google Cloud Arcade (Standard & Champion Milestones)
+          <a href="https://www.cloudskillsboost.google/public_profiles/d54c9735-df93-4d8b-bc19-62147fd7bb90" target="_blank">[Profile]</a>
+        </li>
+        <li>Data Structures & Algorithms Course (Coursera)
+          <a href="https://drive.google.com/drive/folders/1PsczChyYcE81pBkZS3nlX66kyDh9oigu?usp=sharing" target="_blank">[Link]</a>
+        </li>
+        <li>Dev-A-Web Workshop, GYWS, IIT Kharagpur
+          <a href="https://drive.google.com/file/d/1fk_BO9qDsDS1k11_Qc7n2KDyKZ6oiwYI/view?usp=sharing" target="_blank">[Certificate]</a>
+        </li>
+        <li>IEEE VSSUT Member & Seminar Attendee
+          <a href="https://drive.google.com/drive/folders/1RMSHsIyG5hFfesVTOz5sJCy8mr8Mskwf?usp=drive_link" target="_blank">[Folder]</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h1 class="section-title">Get in <span>Touch</span></h1>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:sahoosubhasis703@gmail.com">sahoosubhasis703@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/subhasis-sahoo-26260b268/" target="_blank">View Profile</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/subhasis6363/" target="_blank">@subhasis6363</a></li>
+        <li>Facebook: <a href="https://www.facebook.com/subhasis.sahoo.5661" target="_blank">Subhasis Sahoo</a></li>
+      </ul>
+    </div>
+  </section>
+  <script src="./js/script.js"></script>
+
 </body>
 </html>
-
-
-
